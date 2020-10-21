@@ -32,11 +32,13 @@ main{
     text-align: center;
 }
 img{
-    margin-right: 10px;
     float: left;
+    margin-right: 10px;
 }
-.imgpara{
-    float: right;
+
+footer + p{
+    padding-top: 60px;
+
 }
 main ul{
     color: teal;
