@@ -3,11 +3,13 @@ body {
     background-color: #cbaf87;
     color: #30475e;
 }
-header,nav{
+header{
     text-align: center;
     background-color: #7e8a97;
     display: block;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 header ul{
     list-style-type: none;
@@ -23,6 +25,8 @@ li > a:visited{
 }
 main{
     background-color: #e7dec8 ;
+    margin-top: 150px;
+
 }
 #Menu{
     text-align: center;
