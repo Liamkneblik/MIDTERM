@@ -4,7 +4,37 @@ body {
     color: #30475e;
 }
 header,nav{
-    white-space: pre-line;
     text-align: center;
     background-color: #7e8a97;
+    display: block;
+
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+li > a:link{
+    color: rgb(31, 183, 221);
+}
+li > a:visited{
+    color: silver;
+}
+main{
+    background-color: #e7dec8 ;
+}
+#Menu{
+    text-align: center;
+}
+img{
+    margin-right: 10px;
+    float: left;
+}
+.imgpara{
+    float: right;
+}
+main ul{
+    color: teal;
+    font-weight: bold;
 }
